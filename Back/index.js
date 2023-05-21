@@ -16,6 +16,6 @@ connection
 .then(()=> {
     app.listen(3000,() => console.log("server started"))
 })
-.then((err) => {
+.catch((err) => {
     console.log(err)
 })

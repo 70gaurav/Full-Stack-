@@ -5,3 +5,4 @@ const connection = mongoose.connect("mongodb+srv://gaurav:quiz@quiz.xnh4fju.mong
 })
 
 export default connection;                              
+ 
